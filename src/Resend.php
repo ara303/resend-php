@@ -1,5 +1,7 @@
 <?php
 
+namespace Resend;
+
 use GuzzleHttp\Client as GuzzleClient;
 use Resend\Client;
 use Resend\Transporters\HttpTransporter;
@@ -29,3 +31,5 @@ class Resend
         return new Client($transporter);
     }
 }
+
+class_alias(\Resend\Resend::class, 'Resend');
