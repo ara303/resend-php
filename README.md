@@ -27,9 +27,9 @@ composer require resend/resend-php
 Then, interact with Resend's API:
 
 ```php
-$resend = Resend::client('re_123456789');
-
 require 'vendor/autoloader.php';
+
+$resend = Resend::client('re_123456789');
 
 $resend->emails->send([
     'from' => 'onboarding@resend.dev',
