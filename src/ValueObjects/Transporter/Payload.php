@@ -5,7 +5,7 @@ namespace Resend\ValueObjects\Transporter;
 use GuzzleHttp\Psr7\Request;
 use InvalidArgumentException;
 use Psr\Http\Message\RequestInterface;
-use Resend;
+use Resend\Resend;
 use Resend\Enums\Transporter\ContentType;
 use Resend\Enums\Transporter\Method;
 use Resend\ValueObjects\ResourceUri;

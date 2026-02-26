@@ -1,7 +1,8 @@
 <?php
 
+namespace Resend;
+
 use GuzzleHttp\Client as GuzzleClient;
-use Resend\Client;
 use Resend\Transporters\HttpTransporter;
 use Resend\ValueObjects\ApiKey;
 use Resend\ValueObjects\Transporter\BaseUri;

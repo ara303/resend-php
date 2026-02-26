@@ -24,7 +24,7 @@
             "Resend\\": "src/"
         },
         "files": [
-            "src/Resend.php"
+            "src/resend-alias.php"
         ]
     },
     "autoload-dev": {
